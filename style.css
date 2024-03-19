@@ -1,4 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,600&display=swap");
+@font-face {
+  font-family: "Code2001";
+  src: url(./fonts/CODE2001.ttf);
+}
+
+@font-face {
+  font-family: "Symbola-13";
+  src: url(./fonts/Symbola-13.otf);
+}
+
+@font-face {
+  font-family: "Arial Unicode MS";
+  src: url(./fonts/Arial-UnicodeMS.ttf);
+}
+
+@font-face {
+  font-family: "Segoe UI Symbol";
+  src: url(./fonts/Segoe\ UI\ Symbol.ttf);
+}
+
 
 body {
   overflow: hidden;
@@ -6,7 +25,8 @@ body {
 }
 
 #bg_img {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Code2001", "Symbola-13", "Arial Unicode MS", "Segoe UI Symbol",
+    sans-serif;
   font-weight: 600;
   color: #ffffff;
   font-size: 65px;
