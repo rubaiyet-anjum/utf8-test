@@ -1,34 +1,15 @@
-/* :root {
-  --height: "";
-}
-
-.test {
-  overflow: auto;
-  background-size: cover;
-  background-repeat: repeat; 
- animation: slide 60s linear infinite; 
- }
- 
-@keyframes slide {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-
-  100% {
-    transform: translate3d(-200px, 0, 0);
-  }
-} */
-
 body {
   overflow: hidden;
-  /* display: none; */
-  max-width: 100%;
-  /* z-index: -1; */
+  background-color: #000;
 }
 
 #bg_img {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
   font-size: 65px;
   position: fixed;
   margin-top: -24px;
   margin-left: -5px;
+  width: 110%;
 }
